@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+display:grid;
+grid-template-areas:
+"header "
+"article"
+"footer ";
+grid-template-rows:100px 2fr auto;
+grid-template-columns:auto;
+grid-gap:5px;
+margin:0;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(https://c4.wallpaperflare.com/wallpaper/728/158/348/sunset-blur-gradation-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#Header
+{
+grid-area:header;
+padding: 5px;
+
+
+}
+
+#Foot
+{
+grid-area:footer;
+
+
+}
+#art
+{
+grid-area:article;
+
+
+}
+
+.menu{
+    text-align: center;  
+    position: relative;
+    top: -9px;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    font-weight: bolder;
+    position: relative;
+  bottom: 60px;
+    
+    
+    
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;  
+}
+.menu ul a {
+ color: rgb(0, 0, 0);
+text-decoration: none;
+}
+ .menu ul :hover
+{
+color:#2fb905 ;
+border-radius: 5%;
+}
+ 
+header .img1
+{
+    float: right;
+    position: relative;
+    bottom:75px;
+    right: 60px;
+}
+#art h1{
+    text-align: center;
+    color: rgb(177, 221, 17);
+}
+.para
+{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-size: large;
+}

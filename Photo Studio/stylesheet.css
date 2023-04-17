@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+display:grid;
+grid-template-areas:
+"header "
+"article"
+"footer ";
+grid-template-rows:100px 2fr auto;
+grid-template-columns:auto;
+grid-gap:5px;
+margin:0;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(https://wallpaperaccess.com/full/1981445.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#Header
+{
+grid-area:header;
+padding: 5px;
+
+
+}
+
+#Foot
+{
+grid-area:footer;
+
+
+}
+#art
+{
+grid-area:article;
+
+
+
+}
+.menu{
+    text-align: center;  
+    position: relative;
+    top: -9px;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    font-weight: bolder;
+    position: relative;
+  bottom: 60px;
+    
+    
+    
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;  
+}
+.menu ul a {
+ color: rgb(0, 0, 0);
+text-decoration: none;
+}
+ .menu ul :hover
+{
+color:#2fb905 ;
+border-radius: 5%;
+}
+ 
+header .img1
+{
+    float: right;
+    position: relative;
+    bottom:75px;
+    right: 60px;
+}
+#art h3{
+    color: white;
+    position:relative;
+    top: 50px;
+    left: 150px;
+    font-size: 50;
+}
+#art h1{
+    
+    position:relative;
+    top: 50px;
+    left: 40px;
+    font-size: 70;
+    color: rgba(253, 140, 10, 0.986);
+}
+.p {
+        text-align: center;
+        position:relative;
+    top: 120px;      
+    }
+    .p h4{
+        margin: 5px;
+
+        color: rgb(250, 71, 16);
+    }
+    .p p{
+        color: white;
+        
+       
+    }
+    hr
+    {
+        width:50%;
+        position:relative;
+        left:500px
+    }
+    footer p {
+        text-align: center;
+        color: rgba(255, 248, 248, 0.562);
+
+    }
+    
+    .img
+    {
+        position: relative;
+        top: 100px;
+        padding: 15px;
+        margin-left: 35px;
+        
+    }
+    .img . img{
+        transition: 1s ease;
+        
+        }
+        
+        .img img:hover{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+        }
+        

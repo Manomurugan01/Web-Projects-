@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+display:grid;
+grid-template-areas:
+"header "
+"article"
+"footer ";
+grid-template-rows:100px 2fr auto;
+grid-template-columns:auto;
+grid-gap:5px;
+margin:0;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(https://images.hdqwalls.com/download/amusement-park-blur-5k-qe-1920x1080.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#Header
+{
+grid-area:header;
+padding: 5px;
+
+
+}
+
+#Foot
+{
+grid-area:footer;
+
+
+}
+#art
+{
+grid-area:article;
+
+
+}
+
+.menu{
+    text-align: center;  
+    position: relative;
+    top: -9px;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    font-weight: bolder;
+    position: relative;
+  bottom: 60px;
+    
+    
+    
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 10px;  
+}
+.menu ul a {
+ color: rgb(0, 0, 0);
+text-decoration: none;
+}
+ .menu ul :hover
+{
+color:#2fb905 ;
+border-radius: 5%;
+}
+ 
+header .img1
+{
+    float: right;
+    position: relative;
+    bottom:75px;
+    right: 60px;
+}
+.h2
+{
+    font-size: 20;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(230, 20, 20);
+    text-align: center;
+    margin: 10px;
+}
+.img
+    {
+        position: relative;
+        top: 50px;
+        padding: 15px;
+        margin-left: 95px;
+        float: left;
+        
+        
+    }
+    h1{
+        text-align: center;
+        color: rgb(230, 46, 46);
+        margin-top: 10px;
+        font-size: 40;
+        
+    }
+    footer p {
+        text-align: center;
+
+    }
+    
+    .img img {
+        transition: 1s ease;
+        }
+        
+        .img img:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+        }
+        .para{
+            padding: 10px;
+            color: rgb(10, 10, 10);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 25;
+            
+         }
+        
